@@ -4,7 +4,7 @@
         <br>
         <br>
         <br>
-        <img src="https://raw.githubusercontent.com/PonyJackal/PonyJackal/master/tada.svg?sanitize=true" width="60" height="60">
+        <img src="https://raw.githubusercontent.com/PonyJackal/PonyJackal/master/wolf.png?sanitize=true" width="60" height="60">
         <h3>Welcome to <i>Pony</i>'s profile! :clap: </h3>
         <br>
         <br>
