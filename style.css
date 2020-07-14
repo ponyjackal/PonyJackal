@@ -1,0 +1,107 @@
+ .icon-tada-streamer-1, .icon-tada-streamer-2 {
+	 stroke-dasharray: 30;
+	 stroke-dashoffset: 0;
+}
+ .icon-tada--animate .icon-tada-streamer-1 {
+	 animation: streamer-1 1.5s linear infinite;
+}
+ .icon-tada--animate .icon-tada-streamer-2 {
+	 animation: streamer-2 1.5s linear infinite;
+}
+ .icon-tada--animate .icon-tada-star-1 {
+	 transform-origin: 3.5px 3.5px;
+	 animation: star 1s ease alternate infinite;
+}
+ .icon-tada--animate .icon-tada-star-2 {
+	 transform-origin: 3.5px 3.5px;
+	 animation: star 1.5s ease alternate infinite;
+}
+ .icon-tada--animate .icon-tada-star-3 {
+	 transform-origin: 3.5px 3.5px;
+	 animation: star-alternate 1.2s ease alternate infinite;
+}
+ .icon-tada--animate .icon-tada-circle-1 {
+	 animation: appear 2.5s linear alternate infinite;
+}
+ .icon-tada--animate .icon-tada-circle-2 {
+	 animation: appear 3s linear alternate infinite;
+}
+ .icon-tada--animate .icon-tada-circle-3 {
+	 animation: appear 3.25s linear alternate infinite;
+}
+ .icon-tada--animate .icon-tada-circle-4 {
+	 animation: appear 2s linear alternate infinite;
+}
+ .icon-tada-cone {
+	 fill: #ff7f50;
+}
+ .icon-tada-star-1, .icon-tada-star-2, .icon-tada-star-3, .icon-tada-circle-1, .icon-tada-circle-2, .icon-tada-circle-3, .icon-tada-circle-4, .icon-tada-streamer-1, .icon-tada-streamer-2 {
+	 stroke: #ff7f50;
+}
+ @keyframes streamer-1 {
+	 0% {
+		 opacity: 0;
+		 stroke-dashoffset: -30;
+		 transform: translate(-4px, 5px);
+	}
+	 25% {
+		 opacity: 1;
+	}
+	 75% {
+		 opacity: 0;
+	}
+	 100% {
+		 opacity: 0;
+		 stroke-dashoffset: 0;
+		 transform: translate(5px, -10px) scale(1.5);
+	}
+}
+ @keyframes streamer-2 {
+	 0% {
+		 opacity: 0;
+		 stroke-dashoffset: -30;
+		 transform: translate(-2px, 3px);
+	}
+	 25% {
+		 opacity: 1;
+	}
+	 75% {
+		 opacity: 0;
+	}
+	 100% {
+		 opacity: 0;
+		 stroke-dashoffset: 0;
+		 transform: translate(5px, -10px) scale(2);
+	}
+}
+ @keyframes star {
+	 0% {
+		 transform: rotate(0) scale(0);
+	}
+	 100% {
+		 transform: rotate(360deg) scale(1.35);
+	}
+}
+ @keyframes star-alternate {
+	 0% {
+		 transform: rotate(0) scale(0);
+	}
+	 100% {
+		 transform: rotate(180deg) scale(0.8);
+	}
+}
+ @keyframes appear {
+	 0% {
+		 opacity: 0;
+		 transform: scale(0);
+	}
+	 66% {
+		 opacity: 1;
+		 transform: scale(1.2);
+	}
+	 100% {
+		 transform: scale(1);
+		 opacity: 0;
+	}
+}
+ 
