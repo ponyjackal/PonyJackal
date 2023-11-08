@@ -10,6 +10,8 @@
 
 <div>
         
-![visitors](https://visitor-badge.glitch.me/badge?page_id=PonyJackal.PonyJackal)
+**Visitors**
+
+<img  src="https://profile-counter.glitch.me/josestg/count.svg"  alt="Visitors" />
 
 </div>
